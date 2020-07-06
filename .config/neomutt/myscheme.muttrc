@@ -1,0 +1,50 @@
+# Default index colors:
+color index cyan default '.*'
+color index_author white default '.*'
+color index_number blue default
+color index_subject cyan default '.*'
+
+# For new mail:
+color index brightcyan black "~N"
+color index_author bold brightwhite black "~N"
+color index_subject brightcyan black "~N"
+
+# Header colors:
+color header blue default ".*"
+color header brightmagenta default "^(From)"
+color header brightcyan default "^(Subject)"
+color header brightwhite default "^(CC|BCC)"
+
+mono bold bold
+mono underline underline
+mono indicator reverse
+mono error bold
+color normal cyan black
+color indicator brightblack cyan
+color sidebar_highlight red default
+color sidebar_divider brightblack black
+color sidebar_flagged red black
+color sidebar_new brightwhite black
+color normal brightcyan black
+color error red default
+color tilde black default
+color message cyan default
+color markers red  black
+color attachment cyan default
+color body		cyan	black		[\-\.+_a-zA-Z0-9]+@[\-\.a-zA-Z0-9]+               # email addresses
+color body		yellow	black		(https?|ftp)://[\-\.,/%~_:?&=\#a-zA-Z0-9]+        # URLs
+color body		cyan	black		(^|[[:space:]])\\*[^[:space:]]+\\*([[:space:]]|$) # *bold* text
+color body		cyan	black		(^|[[:space:]])_[^[:space:]]+_([[:space:]]|$)     # _underlined_ text
+color search brightmagenta default
+color status brightcyan black
+color hdrdefault brightgreen default
+color quoted green default
+color quoted1 blue default
+color quoted2 cyan default
+color quoted3 yellow default
+color quoted4 red default
+color quoted5 brightred default
+color signature brightgreen default
+color bold black default
+color underline black default
+color normal white default

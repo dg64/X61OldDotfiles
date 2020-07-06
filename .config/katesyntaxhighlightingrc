@@ -1,0 +1,176 @@
+[Default Item Styles - Schema Breeze Dark]
+Error=ffda4453,ffda4453,0,,,1,-,-,,---
+
+[Default Item Styles - Schema KDE]
+Alert=ffda4453,ffda4453,1,,,,fffae9eb,-,,---
+Annotation=ff7f8c8d,ffbdc3c7,,,,,-,-,,---
+Attribute=ff2980b9,fffdbc4b,,,,,-,-,,---
+Base-N Integer=fff67400,fff67400,,,,,-,-,,---
+Built-in=ff7f8c8d,ffbdc3c7,,,,,-,-,,---
+Character=ff3daee9,fffcfcfc,,,,,-,-,,---
+Comment=ff7f8c8d,ffeff0f1,,,,,-,-,,---
+Comment Variable=ff7f8c8d,ffbdc3c7,,,,,-,-,,---
+Constant=ff232627,fffcfcfc,1,,,,-,-,,---
+Control Flow=ff232627,fffcfcfc,1,,,,-,-,,---
+Data Type=ff2980b9,fffdbc4b,,,,,-,-,,---
+Decimal/Value=fff67400,fff67400,,,,,-,-,,---
+Documentation=ffda4453,ffda4453,,,,,-,-,,---
+Error=ffda4453,ffda4453,,,,1,-,-,,---
+Extension=ff0095ff,fffcfcfc,1,,,,-,-,,---
+Floating Point=fff67400,fff67400,,,,,-,-,,---
+Function=fff67400,fff67400,,,,,-,-,,---
+Import=ff7f8c8d,ffbdc3c7,,,,,-,-,,---
+Information=fff67400,fff67400,,,,,-,-,,---
+Keyword=ff232627,fffcfcfc,1,,,,-,-,,---
+Normal=ff232627,fffcfcfc,,,,,-,-,,---
+Operator=ff232627,fffcfcfc,,,,,-,-,,---
+Others=ff27ae60,ff27ae60,,,,,-,-,,---
+Preprocessor=ff27ae60,ff27ae60,,,,,-,-,,---
+Region Marker=ff2980b9,fffdbc4b,,,,,ffe5eff7,-,,---
+Special Character=ff3daee9,fffcfcfc,,,,,-,-,,---
+Special String=ffda4453,ffda4453,,,,,-,-,,---
+String=ffda4453,ffda4453,,,,,-,-,,---
+Variable=ff2980b9,fffdbc4b,,,,,-,-,,---
+Verbatim String=ffda4453,ffda4453,,,,,-,-,,---
+Warning=ffda4453,ffda4453,,,,,-,-,,---
+
+[Default Item Styles - Schema Normal]
+Error=ffbf0303,ff9c0e0e,,0,,1,-,-,,---
+
+[Default Item Styles - Schema Solarized (dark)]
+Error=ffdc322f,ffdc322f,1,,,1,-,-,,---
+
+[Default Item Styles - Schema Vim (dark)]
+Error=ffffaa00,ffff5500,1,0,0,1,-,-,,---
+
+[Highlighting None - Schema Breeze Dark]
+None:Normal=0,,,,,,,,,,---
+
+[Highlighting None - Schema Normal]
+None:Normal=0,,,,,,,,,,---
+
+[Highlighting None - Schema Solarized (dark)]
+None:Normal=0,,,,,,,,,,---
+
+[Highlighting None - Schema Vim (dark)]
+None:Normal=0,,,,,,,,,,---
+
+[Highlighting Python - Schema Breeze Dark]
+Alerts:Alert Level 1=28,ffe85848,ffe85848,1,,,,ff451e1a,ff000000,,---
+Alerts:Alert Level 2=28,ffca9219,ffca9219,1,,,,ff451e1a,ff000000,,---
+Alerts:Alert Level 3=28,ff81ca2d,ff81ca2d,1,,,,ff4d1f24,ff000000,,---
+Alerts:Normal Text=0,,,,,,,,,,---
+Alerts:Region Marker=25,ff2980b9,ff3daee9,,,,,ff153042,ff000000,,---
+Modelines:Comment=21,ff7a7c7d,ff808080,,,,,,,,---
+Modelines:Keyword=23,ff3f8058,ff54aa75,,,,,,,,---
+Modelines:Number=17,fff67400,fff67400,,,,,,,,---
+Modelines:Option OFF=29,ff27ae60,ff27ae60,,,,,,,,---
+Modelines:Option ON=29,ff27ae60,ff27ae60,,,,,,,,---
+Modelines:String=12,fff44f4f,fff44f4f,,,,,,,,---
+Modelines:Value=29,ff27ae60,ff27ae60,,,,,,,,---
+Modelines:Variable=24,ff7f8c8d,ff94a3a4,,,,,,,,---
+Python:Builtin Function=6,ff7f8c8d,ffbdc3c7,,,,,,,,---
+Python:Comment=21,ff7a7c7d,ff808080,,,,,,,,---
+Python:Complex=29,ff27ae60,ff27ae60,,,,,,,,---
+Python:Decorator=9,ff2980b9,fffdbc4b,,,,,,,,---
+Python:Definition Keyword=1,,,1,,,,,,,---
+Python:Error=30,ffda4453,ffda4453,,,,1,,,,---
+Python:Exceptions=8,ff27ae60,ff27ae60,,,,,,,,---
+Python:Extensions=7,ff0099ff,ffbdc3c7,1,,,,,,,---
+Python:F-String=14,ffda4453,ffda4453,,,,,,,,---
+Python:Float=19,fff67400,fff67400,,,,,,,,---
+Python:Flow Control Keyword=4,fffdbc4b,fffdbc4b,1,,,,,,,---
+Python:Hex=18,fff67400,fff67400,,,,,,,,---
+Python:Import=15,ff27ae60,ff27ae60,,,,,,,,---
+Python:Int=17,fff67400,fff67400,,,,,,,,---
+Python:Normal Text=0,,,,,,,,,,---
+Python:Octal=18,fff67400,fff67400,,,,,,,,---
+Python:Operator=5,,,,,,,,,,---
+Python:Operator Keyword=1,,,1,,,,,,,---
+Python:Overloaders=2,ff8e44ad,ffaf81ff,,,,,,,,---
+Python:Raw F-String=13,ffda4453,ffda4453,,,,,,,,---
+Python:Raw String=13,ffda4453,ffda4453,,,,,,,,---
+Python:Special Variable=3,ff27aeae,ff27aeae,,,,,,,,---
+Python:String=12,fff44f4f,fff44f4f,,,,,,,,---
+Python:String Char=10,ff3daee9,ff3daee9,,,,,,,,---
+Python:String Substitution=11,ff3daee9,ff3daee9,,,,,,,,---
+
+[Highlighting Python - Schema KDE]
+Alerts:Alert Level 1=28,ffe85848,ffe85848,,,,,ff451e1a,ff000000,,---
+Alerts:Alert Level 2=28,ffca9219,ffca9219,,,,,ff451e1a,ff000000,,---
+Alerts:Alert Level 3=28,ff81ca2d,ff81ca2d,,,,,,,,---
+Alerts:Normal Text=0,,,,,,,,,,---
+Alerts:Region Marker=25,,,,,,,,,,---
+Modelines:Comment=21,,,,,,,,,,---
+Modelines:Keyword=23,,,,,,,,,,---
+Modelines:Number=17,,,,,,,,,,---
+Modelines:Option OFF=29,,,,,,,,,,---
+Modelines:Option ON=29,,,,,,,,,,---
+Modelines:String=12,,,,,,,,,,---
+Modelines:Value=29,,,,,,,,,,---
+Modelines:Variable=24,,,,,,,,,,---
+Python:Builtin Function=6,,,,,,,,,,---
+Python:Comment=21,,,,,,,,,,---
+Python:Complex=29,,,,,,,,,,---
+Python:Decorator=9,,,,,,,,,,---
+Python:Definition Keyword=1,,,,,,,,,,---
+Python:Error=30,,,,,,,,,,---
+Python:Exceptions=8,,,,,,,,,,---
+Python:Extensions=7,,,,,,,,,,---
+Python:F-String=14,,,,,,,,,,---
+Python:Float=19,,,,,,,,,,---
+Python:Flow Control Keyword=4,,,,,,,,,,---
+Python:Hex=18,,,,,,,,,,---
+Python:Import=15,,,,,,,,,,---
+Python:Int=17,,,,,,,,,,---
+Python:Normal Text=0,,,,,,,,,,---
+Python:Octal=18,,,,,,,,,,---
+Python:Operator=5,,,,,,,,,,---
+Python:Operator Keyword=1,,,,,,,,,,---
+Python:Overloaders=2,,,,,,,,,,---
+Python:Raw F-String=13,,,,,,,,,,---
+Python:Raw String=13,,,,,,,,,,---
+Python:Special Variable=3,,,,,,,,,,---
+Python:String=12,,,,,,,,,,---
+Python:String Char=10,,,,,,,,,,---
+Python:String Substitution=11,,,,,,,,,,---
+
+[Highlighting Python - Schema Vim (dark)]
+Alerts:Alert Level 1=28,ffe85848,ffe85848,,,,,ff451e1a,ff000000,,---
+Alerts:Alert Level 2=28,ffca9219,ffca9219,,,,,ff451e1a,ff000000,,---
+Alerts:Alert Level 3=28,ff81ca2d,ff81ca2d,,,,,,,,---
+Alerts:Normal Text=0,,,,,,,,,,---
+Alerts:Region Marker=25,,,,,,,,,,---
+Modelines:Comment=21,,,,,,,,,,---
+Modelines:Keyword=23,,,,,,,,,,---
+Modelines:Number=17,,,,,,,,,,---
+Modelines:Option OFF=29,,,,,,,,,,---
+Modelines:Option ON=29,,,,,,,,,,---
+Modelines:String=12,,,,,,,,,,---
+Modelines:Value=29,,,,,,,,,,---
+Modelines:Variable=24,,,,,,,,,,---
+Python:Builtin Function=6,,,,,,,,,,---
+Python:Comment=21,,,,,,,,,,---
+Python:Complex=29,,,,,,,,,,---
+Python:Decorator=9,,,,,,,,,,---
+Python:Definition Keyword=1,,,,,,,,,,---
+Python:Error=30,,,,,,,,,,---
+Python:Exceptions=8,,,,,,,,,,---
+Python:Extensions=7,,,,,,,,,,---
+Python:F-String=14,,,,,,,,,,---
+Python:Float=19,,,,,,,,,,---
+Python:Flow Control Keyword=4,,,,,,,,,,---
+Python:Hex=18,,,,,,,,,,---
+Python:Import=15,,,,,,,,,,---
+Python:Int=17,,,,,,,,,,---
+Python:Normal Text=0,,,,,,,,,,---
+Python:Octal=18,,,,,,,,,,---
+Python:Operator=5,,,,,,,,,,---
+Python:Operator Keyword=1,,,,,,,,,,---
+Python:Overloaders=2,,,,,,,,,,---
+Python:Raw F-String=13,,,,,,,,,,---
+Python:Raw String=13,,,,,,,,,,---
+Python:Special Variable=3,,,,,,,,,,---
+Python:String=12,,,,,,,,,,---
+Python:String Char=10,,,,,,,,,,---
+Python:String Substitution=11,,,,,,,,,,---

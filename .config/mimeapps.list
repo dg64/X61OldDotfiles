@@ -1,0 +1,6 @@
+[Added Associations]
+application/pdf=org.gnome.Evince.desktop;
+
+[Default Applications]
+application/pdf=org.gnome.Evince.desktop
+x-scheme-handler/postman=Postman.desktop

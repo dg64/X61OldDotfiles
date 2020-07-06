@@ -1,0 +1,84 @@
+auto-reload yes
+bind-key ^u open urlview
+browser "qutebrowser %u"
+
+# a psychedelic newsbeuter color scheme
+
+#color listnormal        magenta green
+#color listnormal_unread magenta green
+#color listfocus         blue yellow
+#color listfocus_unread  blue yellow
+#color info              cyan red dim
+#color background        white cyan
+#color article           black magenta
+
+# a lightly-colored, well-readable newsbeuter color scheme
+
+#color listnormal        black white
+#color listnormal_unread black white
+#color listfocus         white blue bold
+#color listfocus_unread  white blue bold
+#color info              white red bold
+#color background        black white
+#color article           black white
+
+# Dark solarized color scheme for newsbeuter, based on
+# Ethan Schoonover's Solarized.
+#
+# In order to use this color scheme, you must first configure
+# your terminal emulator to use the Solarized palette.
+# See <http://ethanschoonover.com/solarized/> for more information.
+
+#color background         default   default
+#color listnormal         default   default
+#color listnormal_unread  default   default
+#color listfocus          black     yellow
+#color listfocus_unread   black     yellow
+#color info               default   black
+#color article            default   default
+
+# highlights
+#highlight article "^(Title):.*$" blue default
+#highlight article "https?://[^ ]+" red default
+#highlight article "\\[image\\ [0-9]+\\]" green default
+
+# a simple newsbeuter color scheme.
+
+#color listnormal        white black
+#color listnormal_unread white black
+#color listfocus         yellow red bold
+#color listfocus_unread  yellow red bold
+#color info              cyan blue
+#color background        white black
+#color article           white black
+
+# a newsbeuter color scheme especially designed for dark environments
+
+#color listnormal        red black
+#color listnormal_unread red black
+#color listfocus         red black bold reverse
+#color listfocus_unread  red black bold reverse
+#color info              red black reverse bold
+#color background        red black
+#color article           red black
+
+# greenscreen color scheme for newsbeuter <http://www.newsbeuter.org/>
+# a simple theme that resembles the look and feel of old "green screen" terminals.
+
+#color listnormal        green default
+#color listnormal_unread green default
+#color listfocus         green default reverse
+#color listfocus_unread  green default reverse
+#color info              green default reverse
+#color background        green default
+#color article           green default
+
+# cyan-colored newsbeuter color scheme
+
+color listnormal        cyan black
+color listnormal_unread cyan black
+color listfocus         cyan black reverse
+color listfocus_unread  cyan black reverse
+color info              white blue
+color background        white black
+color article           white black

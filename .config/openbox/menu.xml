@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/lxterminal.svg" label="Terminal emulator">
+			<action name="Execute">
+				<execute>lxterminal</execute>
+			</action>
+		</item>
+		<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/firefox.svg" label="Web browser">
+			<action name="Execute">
+				<execute>firefox</execute>
+			</action>
+		</item>
+		<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/leafpad.svg" label="Editor">
+			<action name="Execute">
+				<execute>leafpad</execute>
+			</action>
+		</item>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/acroread.svg" label="PDF reader">
+			<action name="Execute">
+				<execute>evince</execute>
+			</action>
+		</item>
+		<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/Thunar.svg" label="File Manager">
+			<action name="Execute">
+				<execute>pcmanfm</execute>
+			</action>
+		</item>
+		<menu icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/libreofficedev6.1-main.svg" id="root-menu-814950" label="Office">
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/libreofficedev6.1-startcenter.svg" label="LibreOffice">
+				<action name="Execute">
+					<execute>libreoffice</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/libreofficedev6.1-calc.svg" label="Calc">
+				<action name="Execute">
+					<execute>localc</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/libreofficedev6.1-writer.svg" label="Writer">
+				<action name="Execute">
+					<execute>lowriter</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/libreofficedev6.1-base.svg" label="Base">
+				<action name="Execute">
+					<execute>lobase</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/libreofficedev6.1-impress.svg" label="Impress">
+				<action name="Execute">
+					<execute>loimpress</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/libreofficedev6.1-math.svg" label="Math">
+				<action name="Execute">
+					<execute>lomath</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/libreofficedev6.1-draw.svg" label="Draw">
+				<action name="Execute">
+					<execute>lodraw</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="/usr/share/icons/Papirus-Dark-Grey/24x24/categories/multisystem.svg" id="root-menu-965033" label="Media">
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/image-viewer.svg" label="Image Viewer">
+				<action name="Execute">
+					<execute>mirage</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/xsane.svg" label="Scanner">
+				<action name="Execute">
+					<execute>xsane</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/vlc.svg" label="Vlc">
+				<action name="Execute">
+					<execute>vlc</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/openshot.svg" label="Shotcut">
+				<action name="Execute">
+					<execute>shotcut</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/preferences-desktop-color.svg" id="root-menu-283227" label="Graphics">
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x/24/apps/inkscape.svg" label="Inkscape">
+				<action name="Execute">
+					<execute>inkscape</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/gimp.svg" label="Gimp">
+				<action name="Execute">
+					<execute>gimp</execute>
+				</action>
+			</item>
+		</menu>
+		<menu icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/java.svg" id="root-menu-872443" label="Programming">
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/urxvt.svg" label="urxvt">
+				<action name="Execute">
+					<execute>urxvt</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/eclipse.svg" label="Eclipse">
+				<action name="Execute">
+					<execute>eclipse</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/kate.svg" label="Kate">
+				<action name="Execute">
+					<execute>kate</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/geany.svg" label="Geany">
+				<action name="Execute">
+					<execute>geany</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/sqldeveloper.svg" label="SQLWorkbenchj">
+				<action name="Execute">
+					<execute>/opt/Workbenchj/sqlworkbench.sh</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/navicat-postgresql.svg" label="PgAdmin4">
+				<action name="Execute">
+					<execute>pgadmin4</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/bless.svg" label="Bless Hex Editor">
+				<action name="Execute">
+					<execute>bless</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/ghex.svg" label="GHex">
+				<action name="Execute">
+					<execute>ghex</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/postman.svg" label="Postman">
+				<action name="Execute">
+					<execute>/opt/Postman/Postman</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu execute="/home/dg/.config/openbox/scripts/date-menu.sh" icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/calendar.svg" id="pipe-3019" label="Calendar"/>
+		<menu execute="/home/dg/.config/openbox/scripts/mpdmenu.pl" icon="/usr/share/icons/Papirus-Dark-Grey/24x24/categories/media-player-48.svg" id="pipe-762654" label="Mpd"/>
+		<menu execute="/home/dg/.config/openbox/scripts/battery.sh" icon="/usr/share/icons/Papirus-Dark-Grey/24x24/devices/battery.svg" id="pipe-6087" label="Battery"/>
+		<menu execute="/home/dg/.config/openbox/scripts/ob-sysinfo.pl" icon="/usr/share/icons/Papirus-Dark-Grey/24x24/actions/system-run.svg" id="pipe-63915" label="Sysinfo"/>
+		<menu execute="/home/dg/.config/openbox/scripts/processes.py" icon="/usr/share/icons/Papirus-Dark-Grey/24x24/actions/view-process-all.svg" id="pipe-902233" label="Processes"/>
+		<menu execute="obfilebrowser --no-self --no-parent" icon="/usr/share/icons/Papirus-Dark-Grey/24x24/places/folder-grey-activities.svg" id="pipe-131842" label="File browser"/>
+		<menu icon="/usr/share/icons/Papirus-Dark-Grey/24x24/places/desktop.svg" id="client-list-menu"/>
+		<separator/>
+		<menu icon="/usr/share/icons/Papirus-Dark-Grey/24x24/actions/settings.svg" id="root-menu-95244" label="Settings">
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/obconf.svg" label="ObConf">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/menu-editor.svg" label="ObMenu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/xfce-theme-manager.svg" label="lxAppearance">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/pavucontrol.svg" label="pavucontrol">
+				<action name="Execute">
+					<execute>pavucontrol</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/cheese.svg" label="cheese">
+				<action name="Execute">
+					<execute>cheese</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/nitrogen.svg" label="Nitrogen">
+				<action name="Execute">
+					<execute>nitrogen</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/tint2conf.svg" label="tint2">
+				<action name="Execute">
+					<execute>tint2conf</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/fonts.svg" label="Font Manager">
+				<action name="Execute">
+					<execute>font-manager</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/wicd-gtk.svg" label="Wicd">
+				<action name="Execute">
+					<execute>wicd-gtk</execute>
+				</action>
+			</item>
+			<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/preferences-theme.svg" label="Rofi Themes">
+				<action name="Execute">
+					<execute>rofi-theme-selector</execute>
+				</action>
+			</item>
+		</menu>
+		<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/apps/obconf.svg" label="ObConf">
+			<action name="Execute">
+				<execute>obconf</execute>
+			</action>
+		</item>
+		<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/actions/view-refresh.svg" label="Reconfigure">
+			<action name="Reconfigure"/>
+		</item>
+		<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/actions/view-restore.svg" label="Restart">
+			<action name="Restart"/>
+		</item>
+		<separator/>
+		<item icon="/usr/share/icons/Papirus-Dark-Grey/24x24/actions/exit.svg" label="Exit">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
